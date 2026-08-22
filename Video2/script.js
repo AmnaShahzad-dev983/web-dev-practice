@@ -1,0 +1,1 @@
+alert("Welcom to Amna's First Website")
