@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        div{
+            /* element selector */
+            /* background-color: maroon;
+            color: white; */
+        }
+        /* class selector */
+        .red{
+            background-color: aqua;
+        }
+        /* id selector */
+        #green{
+            background-color: thistle;
+        } 
+        /* child selector */
+    div>p{
+        color: blue;
+    }
+
+    /* desendent selector */
+    div p {
+        background-color: brown;
+    }
+    /* universal selector */
+    *{
+        margin:0;
+        padding:0;
+    }
+    /* pseoudo selector */
+ a:visited{
+    color:rgb(87, 87, 8);
+ }
+ a:link{
+    color: blueviolet;
+ }
+ a:active{
+   background-color: aqua;
+ }
+ a:hover{
+    color: black;
+ }
+    </style>
+</head>
+<body>
+    <div class="red">
+        My name is Amna Shahzad.
+    </div>
+    <div  id="green">
+        I am a girl.
+    </div>
+    <div>
+        <span>
+        <p>I am from Pakistan.</p>
+        </span>
+    </div>
+    <div>
+        <a target="_blank" href="https://www.google.com">Go to the Google</a>
+    </div>
+   
+</body>
+</html>
