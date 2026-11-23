@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Website - Front Page</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333333;
+        }
+
+        nav {
+            background-color: #1a1a2e;
+            padding: 15px 50px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .logo {
+            display: inline-block;
+            color: #ffffff;
+            font-size: 24px;
+            font-weight: bold;
+            margin-right: 40px;
+        }
+
+        nav ul {
+            display: inline-block;
+            list-style: none;
+        }
+
+        nav ul li {
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+        nav ul li a {
+            color: #dddddd;
+            text-decoration: none;
+            font-size: 16px;
+        }
+
+        nav ul li a:hover {
+            color: #4a90e2;
+        }
+
+        .hero {
+            background-color: #ffffff;
+            text-align: center;
+            padding: 80px 20px;
+            border-bottom: 1px solid #e0e0e0;
+        }
+
+        .hero h1 {
+            font-size: 40px;
+            color: #1a1a2e;
+            margin-bottom: 15px;
+            text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+        }
+
+        .hero p {
+            font-size: 18px;
+            color: #666666;
+            max-width: 600px;
+            margin: 0 auto 30px auto;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 12px 28px;
+            background-color: #4a90e2;
+            color: #ffffff;
+            text-decoration: none;
+            font-size: 16px;
+            font-weight: bold;
+            border-radius: 6px;
+            box-shadow: 0 4px 10px rgba(74, 144, 226, 0.3);
+        }
+
+        .btn:hover {
+            background-color: #357abd;
+        }
+
+        .features {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        .features h2 {
+            font-size: 28px;
+            margin-bottom: 40px;
+            color: #1a1a2e;
+        }
+
+        .card {
+            display: inline-block;
+            width: 280px;
+            background-color: #ffffff;
+            padding: 25px;
+            margin: 15px;
+            border-radius: 10px;
+            border: 1px solid #dddddd;
+            box-shadow: 0 6px 15px rgba(0, 0, 0, 0.08);
+            vertical-align: top;
+        }
+
+        .card h3 {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #4a90e2;
+        }
+
+        .card p {
+            font-size: 14px;
+            color: #555555;
+            line-height: 1.5;
+        }
+
+        footer {
+            background-color: #1a1a2e;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo">CodeHub</div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Courses</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Contact</a></li>
+            <li><a href="index.html">Login</a></li>
+        </ul>
+    </nav>
+
+    <header class="hero">
+        <h1>Learn Web Development</h1>
+        <p>Build your first modern website using basic HTML and CSS concepts and start your coding journey today.</p>
+        <a href="#" class="btn">Get Started</a>
+    </header>
+
+    <section class="features">
+        <h2>What We Teach</h2>
+
+        <div class="card">
+            <h3>HTML5</h3>
+            <p>Learn how to structure web pages properly using forms, tables, lists, and semantic HTML tags.</p>
+        </div>
+
+        <div class="card">
+            <h3>CSS3</h3>
+            <p>Style your website with colors, fonts, box model, shadows, and clean layouts to make it attractive.</p>
+        </div>
+
+        <div class="card">
+            <h3>Projects</h3>
+            <p>Strengthen your web development skills by building real-world login pages and landing pages.</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 CodeHub. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
