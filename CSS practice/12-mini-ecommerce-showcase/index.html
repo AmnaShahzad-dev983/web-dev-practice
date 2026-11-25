@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+nav {
+    background-color: #1e293b;
+    color: white;
+    padding: 15px 40px;
+    overflow: auto; 
+}
+
+.logo {
+    float: left; 
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 30px;
+}
+
+nav ul {
+    float: right;
+    list-style: none; 
+}
+
+nav ul li {
+    display: inline-block; 
+    margin-left: 25px;
+    font-size: 16px;
+    line-height: 30px; 
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: #38bdf8; 
+}
+.card{
+   margin: 35px 39vw 0px 39vw;
+    background-color: blanchedalmond;
+    width: 350px;
+  
+    box-shadow: 1px 2px 2px 2px gray;
+    border-radius: 35px;
+   
+   
+}
+.card img{
+    width:100%;
+    border-radius: 50px;
+   
+padding: 10px;
+}
+
+.tags span{
+    border: 2px solid black;
+    border-radius: 35px;
+    font-size: 12px;
+    padding: 0px 5px 2px 5px;
+  margin-left: 22px;
+  margin-bottom: 10px;
+    background-color: #1e293b;
+    color: rgb(255, 255, 255);
+    
+}
+
+
+.content h2{
+    padding: 3px;
+   margin-left: 10px;
+   margin-top: 10px;
+}
+.content p{
+ 
+    font-size: 15px;
+    padding: 2px 12px 2px 12px;
+    line-height: 21px;
+}
+button{
+    
+background-color: blue;
+color: white;
+width: 80%;
+margin-left: 30px;
+margin-top: 5px;
+margin-bottom: 10px;
+border-radius: 5px;
+font-weight: bold;
+padding-top: 3px;
+padding-bottom: 3px;
+}
+
+
+.order-form {
+    width: 350px;
+    margin: 20px 500px;
+    padding: 20px;
+    background-color:rgb(253, 229, 194);
+    border-radius: 35px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.order-form h3 {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.input-group {
+    display: inline-block;
+    width: 48%;            
+    margin-bottom: 12px;
+    vertical-align: top;   
+}
+
+
+.input-group:nth-child(odd) {
+    margin-right: 2%;
+}
+
+.input-group label {
+    display: block;
+    font-size: 13px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.input-group input,
+.input-group select {
+    width: 100%;         
+    padding: 8px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+}
+
+.order-btn {
+    width: 100%;
+    padding: 10px;
+   margin:10px ;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  
+   
+}
+
+
+
+
+    </style>
+</head>
+<body>
+        <header>
+        <nav>
+            <div class="logo">TechGadget Store</div>
+            <ul>
+                <li>Home</li>
+                <li>Products</li>
+                <li>Contact</li>
+            </ul>
+        </nav>
+    </header>
+    <div class="card">
+        <img src="JBL_Live_780NC-lifestyle03-green.avif" alt="headphone">
+        <div class="tags">
+            <span>Wireless</span>
+            <span>Gaming</span>
+        </div>
+        <div class="content">
+            <h2>ProBass Wireless Headset</h2>
+            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quos ab dicta sit corrupti quibusdam, at quaerat necessitatibus deleniti doloremque atque labore sint cum minus officiis obcaecati voluptas aut alias maxime amet illum velit odit 
+                 </p>
+        </div>
+        <button>Buy Now</button>
+    </div>
+    <div class="card2">
+       
+    <section class="order-form">
+    <h3>Quick Order Form</h3>
+    <form>
+        <div class="input-group">
+            <label>Name</label>
+            <input type="text" placeholder="John Doe">
+        </div>
+
+        <div class="input-group">
+            <label>Email</label>
+            <input type="email" placeholder="john@example.com">
+        </div>
+
+        <div class="input-group">
+            <label>Quantity</label>
+            <input type="number" value="1">
+        </div>
+
+        <div class="input-group">
+            <label>City</label>
+            <select>
+                <option>Karachi</option>
+                <option>Lahore</option>
+                <option>Islamabad</option>
+            </select>
+        </div>
+
+        <button type="submit" class="order-btn">Place Order</button>
+    </form>
+</section>
+
+    </div>
+
+</body>
+</html>
+
+
+    
